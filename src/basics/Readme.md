@@ -3,11 +3,11 @@
 ## 1. Introduction
 
 ### Data Types in Java:
-![data-types.png](images/data-types.png)
+![data-types.png](../images/data-types.png)
 
 ### Data Types Implicit Conversion:
 
-![implicit-conversion.png](images/implicit-conversion.png)
+![implicit-conversion.png](../images/implicit-conversion.png)
 
 ## 2. Java Operators & Binary Number System + Taking User Input
 
@@ -20,11 +20,11 @@ Agenda:
 
 #### Convert Decimal To Binary
 
-![decimal-to-binary.png](images/decimal-to-binary.png)
+![decimal-to-binary.png](../images/decimal-to-binary.png)
 
 #### Convert Binary To Decimal
 
-![binary-to-decimal.png](images/binary-to-decimal.png)
+![binary-to-decimal.png](../images/binary-to-decimal.png)
 
 Memorize It:
 2^0 = 1  
@@ -41,11 +41,11 @@ Memorize It:
 
 #### Binary Addition
 
-![binary-addition.png](images/binary-addition.png)
+![binary-addition.png](../images/binary-addition.png)
 
 #### Binary Subtraction
 
-![binary-subtraction.png](images/binary-subtraction.png)
+![binary-subtraction.png](../images/binary-subtraction.png)
 
 ### Types of Operators in Java
 
@@ -66,19 +66,19 @@ Memorize It:
 
 #### Assignment Operators
 
-![assignment-operators.png](images/assignment-operators.png)
+![assignment-operators.png](../images/assignment-operators.png)
 
 #### Relational Operators
 
-![relational-operators.png](images/relational-operators.png)
+![relational-operators.png](../images/relational-operators.png)
 
 #### Logical Operators
 
-![logical-operators.png](images/logical-operators.png)
+![logical-operators.png](../images/logical-operators.png)
 
 #### Bitwise Operators
 
-![bitwise-operators.png](images/bitwise-operators.png)
+![bitwise-operators.png](../images/bitwise-operators.png)
 
 #### Other Operators
 
@@ -107,3 +107,13 @@ Scanner sc = new Scanner(System.in);
 - We can use nextLong(), nextFloat(), nextDouble(), and next() methods to get long, float, double, and string input respectively from the user.
 
 Note: It is recommended to close the scanner object once the input is taken using the close() method.
+
+## 3. Conditional Statements
+
+1. if-else statement
+2. if-else if- else statement
+3. Nested if-else statement
+4. Working with the Logical Operators 
+5. Ternary Operator
+6. Switch statement
+

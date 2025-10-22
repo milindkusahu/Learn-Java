@@ -1,4 +1,4 @@
-/**
+package basics; /**
  * IntelliJ Shortcut:
  * -> sout
  * -> psvm
