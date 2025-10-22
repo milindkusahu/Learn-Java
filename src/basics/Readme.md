@@ -131,7 +131,7 @@ if (condition) {
 
 ---
 
-### if-else if-else statement
+### if-else statement
 
 ```java
 if (condition1) {
@@ -291,3 +291,34 @@ for (int i = 0; i < 3; i++) {
 }
 ```
 
+## Arrays (Important)
+
+1. How do the Arrays work?
+2. Creating and Declaring Arrays
+3. for-each loop
+4. Multi-dimensional Arrays
+
+### How do the Arrays work?
+
+- Arrays are stored in contiguous memory (consecutive memory locations).
+- Array indexing is zero-based, which means the first element of an array is accessed using index 0, and the last element is accessed using index (length - 1).
+- Default Values in Java Arrays
+  - Numeric arrays (byte, short, int, long, float, double):
+    - After declaring the size of a numeric array, the default value stored in each element is 0 (or 0.0 for floating-point types).
+  - Character arrays (char):
+    - After declaring the size of a char array, the default value stored in each element is '\u0000', which represents the null character (appears as blank).
+  - Boolean arrays (boolean):
+    - After declaring the size of a boolean array, the default value stored in each element is false.
+  - Reference type arrays (String, Object, etc.):
+    - After declaring the size of an array of objects or strings, the default value stored in each element is null.
+
+```java
+int intArray[]; (recommended)
+or int[] intArray;
+
+intArray = new int[20]; // Allocating memory to array
+```
+
+### Multi-dimensional Array
+
+![multi-dimensional-array.png](../images/multi-dimensional-array.png)
