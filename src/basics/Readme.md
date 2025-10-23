@@ -322,3 +322,44 @@ intArray = new int[20]; // Allocating memory to array
 ### Multi-dimensional Array
 
 ![multi-dimensional-array.png](../images/multi-dimensional-array.png)
+
+## Methods/ Function
+
+1. How do the methods/ functions work?
+2. Declaring a Java Method
+3. Calling a Method
+4. Method return type
+5. Method Parameters
+6. Math Library Methods
+
+### How do the methods/ functions work?
+
+- A method is a block of code or collection of statements or a set of code grouped together to perform a certain task or operation. It is used to achieve the reusability of code.
+
+### Components of a Method
+
+![components-of-method.png](../images/components-of-method.png)
+
+### Method Parameters
+
+- A method parameter is a value accepted by the method. As mentioned earlier, a method can also have any number of parameters.
+
+```java
+average(int a, int b) {
+
+}
+```
+### Math Class Methods
+
+1. Math.min(x,y)
+2. Math.max(x,y)
+3. Math.sqrt(x)
+4. Math.pow(x,y)
+5. Math.abs(x)
+6. Math.random()
+7. Math.floor(x)
+8. Math.ceil(x)
+9. Math.round(x)
+
+
+
