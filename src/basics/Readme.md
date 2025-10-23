@@ -291,7 +291,7 @@ for (int i = 0; i < 3; i++) {
 }
 ```
 
-## Arrays (Important)
+## 5. Arrays (Important)
 
 1. How do the Arrays work?
 2. Creating and Declaring Arrays
@@ -323,7 +323,7 @@ intArray = new int[20]; // Allocating memory to array
 
 ![multi-dimensional-array.png](../images/multi-dimensional-array.png)
 
-## Methods/ Function
+## 6. Methods/ Function
 
 1. How do the methods/ functions work?
 2. Declaring a Java Method
@@ -361,5 +361,59 @@ average(int a, int b) {
 8. Math.ceil(x)
 9. Math.round(x)
 
+## 7. String
 
+1. Basics of String
+2. How to create String
+3. Immutability in Strings
+4. Comparing two Strings
+5. String Methods
 
+### Basics of String
+
+- In Java, String is basically an object that represents a sequence of char values. An array of characters work same as Java String.
+
+### How to create String and stored
+
+![creating-string.png](../images/creating-string.png)
+
+- By string literal
+
+```java
+String name = "Ram";
+```
+
+- By new keyword
+
+```java
+String name = new String("Ram");
+```
+
+### Immutability in Strings
+
+![immutability-in-strings.png](../images/immutability-in-strings.png)
+
+### Comparing two Strings
+
+![primitive-non-primitive-data-types.webp](../images/primitive-non-primitive-data-types.webp)
+
+- (==) References are stored in the Stack Memory.
+- For Primitive data types "Values" are checked.
+- For Non-Primitive data types "Reference" are checked.
+
+![comparing-string.png](../images/comparing-string.png)
+
+### String Methods
+
+![string-methods.png](../images/string-methods.png)
+
+- Strings are immutable.
+- Almost all string operations do not modify the original string. Instead, they return a new String object with the modified value.
+
+```java
+String s1 = "Java";
+String s2 = s1.toUpperCase();
+
+System.out.println(s1); // Java
+System.out.println(s2); // JAVA
+```
